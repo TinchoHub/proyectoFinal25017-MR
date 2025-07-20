@@ -8,7 +8,7 @@ export const StoreProvider = ({ children }) => {
 
     const fetchStore = async () => {
         try {
-            const res = await fetch('https://api.escuelajs.co/api/v1/products');
+            const res = await fetch('https://fakestoreapi.com/products');
             if (!res.ok) throw new Error('Error al obtener productos');
             const data = await res.json();
             setStore(data);

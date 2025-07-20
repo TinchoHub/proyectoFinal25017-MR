@@ -31,20 +31,22 @@ const Navibar = () => {
             <Nav.Link as={Link} to="/" > Inicio </Nav.Link>
             <Nav.Link as={Link} to="/Productos" > Productos</Nav.Link>
             <Nav.Link as={Link} to="/Contacto" > Contacto </Nav.Link>
+            <Nav.Link as={Link} to="/About" > Sobre Nosotros </Nav.Link>            
             {isAuth && (
               <>
+                <Nav.Link as={Link} to="/Admin" > Admin </Nav.Link>
                 <Nav.Link as={Link} to="/Perfil" > Perfil </Nav.Link>
               </>
             )}
           </Nav>
-          <nav>
+          <nav className="me-3">
             <Button onClick={handleShow}>  
-            <BsCart className="me-1" />
-            {cartCount > 0 && (
-              <Badge bg="light" text="dark" className="ms-1">
-                {cartCount}
-              </Badge>
-            )}
+              <BsCart className="me-1" />
+              {cartCount > 0 && (
+                <Badge bg="light" text="dark" className="ms-1">
+                  {cartCount}
+                </Badge>
+              )}
             </Button>
           </nav>
           <Nav className="d-flex">

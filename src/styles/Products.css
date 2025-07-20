@@ -1,0 +1,31 @@
+
+.products-full-bg {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.products-bg-img {
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products-bg {
+  min-height: 400px;
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 2rem 0;
+}
+
+.product-card-img {
+  height: 200px;
+  object-fit: contain;
+  background: #fff;
+}
