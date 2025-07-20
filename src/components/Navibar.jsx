@@ -22,7 +22,7 @@ const Navibar = () => {
 
   return (
     <>
-    <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
+    <Navbar expand="lg" className="bg-light" sticky="top">
       <Container fluid>
         <Navbar.Brand as={Link} to="/"><BsHouse /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
