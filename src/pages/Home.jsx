@@ -14,10 +14,10 @@ const Home = () => {
                 style={{ backgroundImage: `url(${fondoHome})` }}
             >
                 <div className="home-blur-overlay" />
-                <Helmet>
+                {/* <Helmet>
                     <title>Home | Mi Tienda</title>
                     <meta name="description" content="Bienvenidos a StarShop, tu tienda de confianza." />
-                </Helmet>
+                </Helmet> */}
                 <Container fluid>
                     <Row className="mb-4">
                         <Col>
