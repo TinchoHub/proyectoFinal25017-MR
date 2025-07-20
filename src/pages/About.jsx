@@ -1,4 +1,3 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
 import aboutImg from "../assets/About.JPG";
 import '../styles/About.css';
