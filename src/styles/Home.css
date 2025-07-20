@@ -47,18 +47,6 @@
   overflow: hidden;
 }
 
-.home-bg-img {
-  min-height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .home-bg {
   min-height: 400px;
   background: #f8f9fa;
@@ -82,4 +70,4 @@
   justify-content: center;
   flex-shrink: 0;
   flex-grow: 0;
-}
+}}
