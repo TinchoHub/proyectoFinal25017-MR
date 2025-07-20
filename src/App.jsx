@@ -8,7 +8,7 @@ import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import Admin from "./pages/Admin";
 import About from "./pages/About";import ProtectedRoute from "./components/ProtectedRoute";
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import { StoreProvider } from "./context/StoreContext";
 
 function App() {
